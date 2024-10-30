@@ -1,0 +1,385 @@
+/* -------------------------------------------------- 
+	:: welcome_bar
+---------------------------------------------------*/
+.welcome_bar-success{
+	background-color:lime;
+	color:#000;
+	font-weight:bold;
+	padding:5px;
+	display:block;
+	width:100%;
+	clear:both;
+}
+.welcome_bar 
+{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;  /* << set custom welcome_bar height */
+  z-index: 100;   /* << DO NOT EDIT, KEEPS welcome_bar ON TOP OF PAGE CONTENT */
+  padding: 15px 0 5px 0;
+  padding-bottom:10px;
+  text-align: center;
+  font-size: 16px;  /* << set custom welcome_bar font size */
+  font-weight: bold !important;  /* << set custom welcome_bar font weight */
+  /* color: #ffffff;  /* << set custom welcome_bar font color */
+  /* background-color: #569625;  /* << set custom bar color here */
+  border-bottom: 0px solid #1c1c1c;  /* << set custom bottom border thickness & color here */
+  -webkit-box-shadow: 0px 3px 10px -4px #333;  /* << set custom css box shadow */
+  -moz-box-shadow: 0px 3px 10px -4px #333;  /* << set custom css box shadow */
+  box-shadow: 0px 3px 10px -4px #333;   /* << set custom css box shadow */
+  -webkit-box-shadow: 0px 3px 10px -4px rgba(50, 50, 50, 0.58);
+ -moz-box-shadow:    0px 3px 10px -4px rgba(50, 50, 50, 0.58);
+ box-shadow:         0px 3px 10px -4px rgba(50, 50, 50, 0.58);
+  z-index: 999999;
+}
+ 
+.welcome_bar-stub 
+{
+  position: fixed;
+  top: -10px;
+  right: 10px;
+  width: 100%;
+  height: 19px;
+  z-index: 200;
+  padding: 7px 0 5px 0;
+}
+ 
+.welcome_bar span 
+{
+  float: left;
+  width: 92%;
+  text-align: center;
+  padding-top: 2px;
+}
+ 
+.show-notify 
+{
+  float: right;
+  display:block;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.35);
+  margin:0;
+  margin-right:15px;
+  padding:0;
+  width: 35px;
+  height: 33px;
+  text-decoration: none;
+/*  color: #fff;
+  background-color: #eee; /* << set custom bar color here */
+  cursor:pointer;
+}
+
+.show-notify:hover 
+{
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.35);
+  float: right;
+  margin-right: 15px;
+  color: #fff;
+  width: 35px;
+  height: 33px;
+  text-decoration: none;
+  /* background-color: #569625; /* << set custom bar color here */
+  cursor:pointer;
+}
+
+
+.welcome_bar-up-arrow:hover 
+{
+  background: url(welcome_bar-up-arrow-hover.png);
+}
+
+.close-notify 
+{
+  float: right;
+  margin-top:3px;
+  margin-right: 22px;
+  color: #fff;
+  width: 17px;
+  height: 19px;
+  text-decoration: none;
+  /* background-color: #569625; /* << set custom bar color here */
+  cursor:pointer;
+}
+
+.inboundrocket-wb-branding {
+  float: left;
+  margin-top: 3px;
+  margin-left: 22px;
+  color: #fff;
+  width: 17px;
+  height: 19px;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: .5;
+  -moz-transition: opacity 100ms ease-out;
+  -ms-transition: opacity 100ms ease-out;
+  -o-transition: opacity 100ms ease-out;
+  -webkit-transition: opacity 100ms ease-out;
+  transition: opacity 100ms ease-out;
+}
+a.inboundrocket-wb-branding:hover {opacity: 1;}
+
+
+/* -------------------------------------------------- 
+	:: Mobile welcome_bar
+---------------------------------------------------*/
+
+.mwelcome_bar
+{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;  /* << set custom welcome_bar height */
+  z-index: 100;   /* << DO NOT EDIT, KEEPS welcome_bar ON TOP OF PAGE CONTENT */
+  padding: 5px 0 5px 0;
+  text-align: center;
+  font-size: 14px;  /* << set custom welcome_bar font size */
+  font-weight: bold !important;  /* << set custom welcome_bar font weight */
+  color: #ffffff;  /* << set custom welcome_bar font color */
+  background-color: #569625;  /* << set custom bar color here */
+  border-bottom: 0px solid #1c1c1c;  /* << set custom bottom border thickness & color here */
+  -webkit-box-shadow: 0 8px 6px -6px #333;  /* << set custom css box shadow */
+  -moz-box-shadow: 0 8px 6px -6px #333;  /* << set custom css box shadow */
+  box-shadow: 0 8px 6px -6px #333;   /* << set custom css box shadow */
+}
+ 
+.mwelcome_bar-stub
+{
+  position: fixed;
+  top: -10px;
+  left: 0px;
+  width: 100%;
+  height: 19px;
+  z-index: 200;
+  padding: 7px 0 5px 0;
+  text-align: center;
+}
+ 
+.mwelcome_bar span
+{
+  float: left;
+  width: 95%;
+  text-align: center;
+  padding-top: 2px;
+}
+ 
+.mshow-notify
+{
+ -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.35);
+  float: right;
+  margin-right: 10px;
+  color: #fff;
+  width: 35px;
+  height: 33px;
+  text-decoration: none;
+  background-color: #569625; /* << set custom bar color here */
+  cursor:pointer;
+}
+
+.mshow-notify:hover {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.35);
+  float: right;
+  margin-right: 10px;
+  color: #fff;
+  width: 35px;
+  height: 33px;
+  text-decoration: none;
+  background-color: #569625; /* << set custom bar color here */
+  cursor:pointer;
+}
+
+.mwelcome_bar-up-arrow:hover {
+  background: url(welcome_bar-up-arrow-hover.png);
+}
+
+.mclose-notify
+{
+  padding-top: 0px;
+  color: #fff;
+  margin-right:10px;
+  height: 19px;
+  text-decoration: none;
+  background-color: #569625; /* << set custom bar color here */
+  cursor:pointer;
+  float: right;
+}
+
+.inboundrocket-wb-mbranding {
+  float: right;
+  margin-right: -35px;
+  color: #fff;
+  width: 17px;
+  height: 19px;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: .5;
+  -moz-transition: opacity 100ms ease-out;
+  -ms-transition: opacity 100ms ease-out;
+  -o-transition: opacity 100ms ease-out;
+  -webkit-transition: opacity 100ms ease-out;
+  transition: opacity 100ms ease-out;
+}
+a.inboundrocket-wb-mbranding:hover {opacity: 1;}
+
+/* -------------------------------------------------- 
+	:: SHOW/HIDE CSS
+---------------------------------------------------*/
+
+
+.noDesktop 
+{ 
+  display: none !important; 
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.noMobile 
+{ 
+  display: none !important; 
+}
+
+.showMobile 
+{ 
+  display: block !important; 
+}
+
+}
+/* -------------------------------------------------- 
+	:: FORM CSS
+---------------------------------------------------*/
+
+#welcome-span{margin:0 auto;padding:0;}
+
+#welcome_bar-form {
+	display: inline;
+	margin-left: 20px;
+	margin-bottom: 2em;
+	padding: 0;
+	width: 100%;
+}
+
+form#welcome_bar-form input, input[type=email] {
+	background: #fff;
+	margin: 0;
+	width: 14em;
+	padding:0;
+	margin-top:-5px;
+	padding-left:5px;
+	border: 0;
+	font-size: 16px;
+	line-height: normal;
+	color: #333;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0,3em;
+	-moz-border-radius: 0.3em;
+	-webkit-appearance: none;
+	display: inline;
+}
+
+.welcome_bar button
+{
+	border: 0;
+	margin: 0;
+	height:32px;
+	margin-top:-5px;
+	margin-left: 10px;
+	line-height: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.1em;
+	font-weight: 700;
+	font-size: 12px;
+	width: auto;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0,3em;
+	-moz-border-radius: 0.3em;
+	-webkit-appearance: none;
+	position: relative;
+	background: #000000; /* button color */
+	color: #fff;
+	padding: 3px 8px 3px 8px;
+	cursor: pointer;
+	vertical-align: top;
+}
+ 
+.welcome_bar button:hover 
+{
+  background-color: #1c1c1c;
+  color: white;
+  text-decoration: none;
+}
+#mwelcome_bar-form {
+	display: inline;
+	margin-left: 20px;
+	margin-bottom: 2em;
+	padding: 0;
+	width: 100%;
+}
+
+form#mwelcome_bar-form input, input[type=email] {
+	background: #fff;
+	margin: 0;
+	height: 2em;
+	width: 95%;
+	border: 0;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0,3em;
+	-moz-border-radius: 0.3em;
+	-webkit-appearance: none;
+	display: inline;
+	
+}
+.minput {
+	display: block;
+	width: 100%;
+	padding: 3px 8px 3px 8px;
+}
+.mwelcome_bar-link
+{
+	line-height: 1em;
+	width: 95%;
+	-moz-border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	border-radius: 0.3em;
+	-webkit-appearance: none;
+	background: #000000; /* button color Old browsers */
+	color: white;
+	margin: 0.5em auto 0 auto;
+}
+ 
+.mwelcome_bar-link:hover
+{
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: #1c1c1c; /* Old browsers */
+  color: white;
+  padding: 3px 8px 3px 8px;
+  text-decoration: none;
+}
+

@@ -1,0 +1,2762 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Inbound Rocket\n"
+"POT-Creation-Date: 2017-08-18 11:00+0200\n"
+"PO-Revision-Date: 2017-08-18 11:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: inbound-rocket.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/inboundrocket-admin.php:364
+#: admin/inc/class-inboundrocket-list-table.php:607
+msgid "Lead Lists"
+msgstr "Liste des prospects"
+
+#: admin/inboundrocket-admin.php:365 admin/inboundrocket-admin.php:392
+msgid "Settings"
+msgstr "Réglages"
+
+#: admin/inboundrocket-admin.php:366
+msgid "Power-ups"
+msgstr "Power-ups"
+
+#: admin/inboundrocket-admin.php:369
+msgid "Upgrade to Premium"
+msgstr "Passage au Prémium"
+
+#: admin/inboundrocket-admin.php:371
+msgid "Stats"
+msgstr "Statistiques"
+
+#: admin/inboundrocket-admin.php:411
+#: inc/power-ups/contacts/admin/contacts-admin.php:150
+msgid "Inbound Rocket Stats"
+msgstr "Statistiques de Inbound Rocket"
+
+#: admin/inboundrocket-admin.php:414 admin/inboundrocket-admin.php:418
+msgid "new contact"
+msgstr "Nouveau contact…"
+
+#: admin/inboundrocket-admin.php:414 admin/inboundrocket-admin.php:418
+msgid "new contacts"
+msgstr "Nouveaux contacts"
+
+#: admin/inboundrocket-admin.php:414
+msgid "last 30 days"
+msgstr "Les 30 derniers jours"
+
+#: admin/inboundrocket-admin.php:418 admin/inboundrocket-admin.php:419
+msgid "today"
+msgstr "aujourd’hui"
+
+#: admin/inboundrocket-admin.php:419
+msgid "returning contact"
+msgstr "contact reconnu "
+
+#: admin/inboundrocket-admin.php:419
+msgid "returning contacts"
+msgstr "contacts reconnus"
+
+#: admin/inboundrocket-admin.php:420
+msgid "Most popular pages today"
+msgstr "Pages les plus populaires aujourd’hui"
+
+#: admin/inboundrocket-admin.php:424
+msgid "New contact sources last 30 days"
+msgstr "Nouvelles sources du contact sous les 30 derniers jours"
+
+#: admin/inboundrocket-admin.php:425
+msgid "New shares last 30 days"
+msgstr "Les nouvelles partagées sous les 30 derniers jours"
+
+#: admin/inboundrocket-admin.php:426
+msgid "Top 5 referral sources"
+msgstr "Top 5 des sources de référence"
+
+#: admin/inboundrocket-admin.php:688
+msgid "Add a Lead List"
+msgstr "Ajouter une liste de prospects"
+
+#: admin/inboundrocket-admin.php:690
+msgid "Manage Lead Lists"
+msgstr "Gérer la liste des prospects"
+
+#: admin/inboundrocket-admin.php:698 admin/inboundrocket-admin.php:699
+msgid "Lead List name"
+msgstr "Nom de la liste des prospects"
+
+#: admin/inboundrocket-admin.php:703 admin/inboundrocket-admin.php:706
+msgid "Automatically tag contacts who fill out any of these forms"
+msgstr ""
+"Identifier automatiquement les contacts qui remplissent l’une de ces "
+"formulaires"
+
+#: admin/inboundrocket-admin.php:732
+msgid "Include additional form's css selectors."
+msgstr "Inclure les sélecteurs CSS supplémentaires."
+
+#: admin/inboundrocket-admin.php:756
+msgid "Sync contacts to Aweber list"
+msgstr "Synchroniser les contacts à la liste d'Aweber"
+
+#: admin/inboundrocket-admin.php:759
+msgid "Push tagged contacts to Postmatic"
+msgstr "Diriger les contacts identifiés vers Postmatic"
+
+#: admin/inboundrocket-admin.php:762
+msgid "Sync contacts to Campaign Monitor list"
+msgstr "Synchroniser les contacts à la liste de Campaign Monitor"
+
+#: admin/inboundrocket-admin.php:765
+msgid "Push tagged contacts to Mailchimp"
+msgstr "Diriger les contacts identifiés vers MailChimp"
+
+#: admin/inboundrocket-admin.php:774
+#, php-format
+msgid "Push tagged contacts to these %s email lists"
+msgstr "Diriger les contacts identifiés vers ces %s listes d’emails"
+
+#: admin/inboundrocket-admin.php:783 admin/inboundrocket-admin.php:802
+#: admin/inboundrocket-admin.php:809 admin/inboundrocket-admin.php:816
+#, php-format
+msgid "It looks like your %s API key is invalid"
+msgstr "Il semblerait que la clé API de %s ne soit pas valide"
+
+#: admin/inboundrocket-admin.php:784 admin/inboundrocket-admin.php:803
+#: admin/inboundrocket-admin.php:810 admin/inboundrocket-admin.php:817
+#: inc/power-ups/campaign-monitor-connector/admin/campaign-monitor-connector-admin.php:81
+#: inc/power-ups/campaign-monitor-connector/admin/campaign-monitor-connector-admin.php:201
+#: inc/power-ups/mailchimp-connector/admin/mailchimp-connector-admin.php:234
+#: inc/power-ups/postmatic-connector/admin/postmatic-connector-admin.php:133
+msgid "Get your API key"
+msgstr "Obtenez votre clé API "
+
+#: admin/inboundrocket-admin.php:784 admin/inboundrocket-admin.php:796
+#: admin/inboundrocket-admin.php:803 admin/inboundrocket-admin.php:810
+#: admin/inboundrocket-admin.php:817
+#: inc/power-ups/aweber-connector/admin/aweber-connector-admin.php:157
+#: inc/power-ups/campaign-monitor-connector/admin/campaign-monitor-connector-admin.php:81
+#: inc/power-ups/campaign-monitor-connector/admin/campaign-monitor-connector-admin.php:201
+#: inc/power-ups/mailchimp-connector/admin/mailchimp-connector-admin.php:234
+msgid "from"
+msgstr "de"
+
+#: admin/inboundrocket-admin.php:795
+#, php-format
+msgid "It looks like your %s Authorization Code is invalid"
+msgstr ""
+"Il ressemblerait que le code d’autorisation de votre %s ne soit pas valide"
+
+#: admin/inboundrocket-admin.php:796
+msgid "Get your Authorization Code"
+msgstr "Obtenez votre code d’autorisation."
+
+#: admin/inboundrocket-admin.php:828
+#, php-format
+msgid "It looks like you haven't set up your %s integration yet"
+msgstr ""
+"Il semblerait que vous n’ayez pas encore mis en place votre intégration %s"
+
+#: admin/inboundrocket-admin.php:829
+#, php-format
+msgid "Set up your %s integration"
+msgstr "Configurez votre intégration %s"
+
+#: admin/inboundrocket-admin.php:834
+msgid "then try copying and pasting it again in"
+msgstr "puis essayez de copier et de coller à nouveau dans"
+
+#: admin/inboundrocket-admin.php:854 admin/inboundrocket-admin.php:855
+msgid "Push to Postmatic"
+msgstr "Pousser à Postmatic"
+
+#: admin/inboundrocket-admin.php:894
+#, php-format
+msgid "It looks like you don't have any %s lists yet"
+msgstr "Il semblerait que vous n’ayez pas encore les listes de toute les %s"
+
+#: admin/inboundrocket-admin.php:895
+#, php-format
+msgid "Create a list on %s"
+msgstr "Créer une liste dans %s"
+
+#: admin/inboundrocket-admin.php:907
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: admin/inboundrocket-admin.php:946
+msgid "Manage Inbound Rocket Lead Lists"
+msgstr "Gérer la liste des prospects Inbound Rocket"
+
+#: admin/inboundrocket-admin.php:946
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin-functions.php:12
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin.php:196
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin-functions.php:12
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin.php:177
+msgid "Add New"
+msgstr "Ajouter une liste"
+
+#: admin/inboundrocket-admin.php:974 admin/inc/class-stats-dashboard.php:162
+msgid "Today"
+msgstr "Aujourd’hui"
+
+#: admin/inboundrocket-admin.php:976 admin/inboundrocket-admin.php:981
+#: admin/inboundrocket-admin.php:986
+msgid "new"
+msgstr "nouveau"
+
+#: admin/inboundrocket-admin.php:976 admin/inboundrocket-admin.php:981
+#: admin/inboundrocket-admin.php:986 admin/inboundrocket-admin.php:991
+msgid "contacts"
+msgstr "contacts"
+
+#: admin/inboundrocket-admin.php:976 admin/inboundrocket-admin.php:981
+#: admin/inboundrocket-admin.php:986 admin/inboundrocket-admin.php:991
+#: admin/inboundrocket-admin.php:1009 admin/inboundrocket-admin.php:1045
+msgid "contact"
+msgstr "contact"
+
+#: admin/inboundrocket-admin.php:979
+msgid "Avg last 90 days"
+msgstr "Moyenne de ces derniers 90 jours"
+
+#: admin/inboundrocket-admin.php:984
+msgid "Best day ever"
+msgstr "Le meilleur jour"
+
+#: admin/inboundrocket-admin.php:989
+msgid "All time"
+msgstr "Tout le temps"
+
+#: admin/inboundrocket-admin.php:991
+msgid "total"
+msgstr "total"
+
+#: admin/inboundrocket-admin.php:1010 admin/inboundrocket-admin.php:1046
+msgid "pageviews"
+msgstr "Pages vues"
+
+#: admin/inboundrocket-admin.php:1011 admin/inboundrocket-admin.php:1047
+msgid "original source"
+msgstr "la source d’origine"
+
+#: admin/inboundrocket-admin.php:1029
+msgid "No new contacts today..."
+msgstr "Pas de nouveaux contacts aujourd’hui …"
+
+#: admin/inboundrocket-admin.php:1065
+msgid "No returning contacts today..."
+msgstr "Pas de contacts revenus aujourd'hui .."
+
+#: admin/inboundrocket-admin.php:1082
+msgid "Page"
+msgstr "Page"
+
+#: admin/inboundrocket-admin.php:1083 admin/inboundrocket-admin.php:1128
+#: admin/inboundrocket-admin.php:1160
+msgid "Count"
+msgstr "Nombre"
+
+#: admin/inboundrocket-admin.php:1111
+msgid "No most visited pages at this time..."
+msgstr "Pas de pages populaires visitées en ce moment"
+
+#: admin/inboundrocket-admin.php:1127
+#: inc/power-ups/contacts/admin/contacts-admin.php:374
+#: inc/power-ups/contacts/admin/contacts-admin.php:402
+msgid "Shared to"
+msgstr "Partager sur"
+
+#: admin/inboundrocket-admin.php:1129
+msgid "Content"
+msgstr "Contenu"
+
+#: admin/inboundrocket-admin.php:1144
+msgid "No new shares at this time..."
+msgstr "Pas de nouvelles partagées en ce moment..."
+
+#: admin/inboundrocket-admin.php:1159
+msgid "Referral"
+msgstr "Référence"
+
+#: admin/inboundrocket-admin.php:1183
+msgid "No referrers today..."
+msgstr "Pas de référents aujourd’hui …"
+
+#: admin/inboundrocket-admin.php:1197
+msgid "source"
+msgstr "source"
+
+#: admin/inboundrocket-admin.php:1198 admin/inboundrocket-admin.php:2616
+#: admin/inc/class-inboundrocket-list-table.php:611
+msgid "Contacts"
+msgstr "Contacts"
+
+#: admin/inboundrocket-admin.php:1202
+msgid "Direct Traffic"
+msgstr "Traffic Direct"
+
+#: admin/inboundrocket-admin.php:1209
+msgid "Organic Search"
+msgstr "Moteurs de recherches"
+
+#: admin/inboundrocket-admin.php:1216
+msgid "Referrals"
+msgstr "Références"
+
+#: admin/inboundrocket-admin.php:1223
+msgid "Social Media"
+msgstr "Réseaux sociaux"
+
+#: admin/inboundrocket-admin.php:1230
+msgid "Email Marketing"
+msgstr "Marketing par courriel"
+
+#: admin/inboundrocket-admin.php:1237
+msgid "Paid Search"
+msgstr "Moteurs de recherches payants"
+
+#: admin/inboundrocket-admin.php:1255
+msgid "Keep me up to date with security and feature updates"
+msgstr "Me tenir informer des mises à jour de sécurité et de fonctionnalités"
+
+#: admin/inboundrocket-admin.php:1270
+msgid "Administrators"
+msgstr "Administrateurs"
+
+#: admin/inboundrocket-admin.php:1295
+msgid "Visitor Tracking"
+msgstr "Suivi des visiteurs"
+
+#: admin/inboundrocket-admin.php:1300
+msgid "Notification email"
+msgstr "Email de notification"
+
+#: admin/inboundrocket-admin.php:1310
+msgid "Subscribe to updates"
+msgstr "S’abonner aux mises à jour"
+
+#: admin/inboundrocket-admin.php:1320 admin/inboundrocket-admin.php:1700
+msgid "Enable Evercookie Tracking"
+msgstr "Activer le suivi Evercookie"
+
+#: admin/inboundrocket-admin.php:1328
+msgid "Enable Dashboard Widget"
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1336
+msgid "Automatically clean-up unused records"
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1344
+msgid "Do not track logged in"
+msgstr "Ne pas suivre en tant que"
+
+#: admin/inboundrocket-admin.php:1352
+msgid "Grant Inbound Rocket access to"
+msgstr "Accorder l’accès entrant d’Inbound Rocket à"
+
+#: admin/inboundrocket-admin.php:1361
+msgid "Emails"
+msgstr "E-mails"
+
+#: admin/inboundrocket-admin.php:1366
+msgid "Send welcome email"
+msgstr "Envoyer un e-mail de bienvenue"
+
+#: admin/inboundrocket-admin.php:1374
+msgid "Welcome email subject"
+msgstr "Objet de le-mail de bienvenue"
+
+#: admin/inboundrocket-admin.php:1382
+msgid "Welcome email content"
+msgstr "Contenu de l’e-mail de bienvenue"
+
+#: admin/inboundrocket-admin.php:1395
+msgid ""
+"This is the subject of the welcome email, which will be send after someone "
+"signs-up on your website."
+msgstr ""
+"Ce message sera reçu par tous les nouveaux utilisateurs qui s’inscrivent sur "
+"votre site Internet"
+
+#: admin/inboundrocket-admin.php:1419
+msgid ""
+"This is the email which will be send after someone sign-ups on your website. "
+"It can either be plain text or you can copy paste your HTML code in here.."
+msgstr ""
+"Ceci est l’e-mail qui sera envoyé après que qu’une personne se sera inscrit "
+"sur votre site internet. Vous pouvez créer votre texte ou vous pouvez copier "
+"coller votre code HTML ici .."
+
+#: admin/inboundrocket-admin.php:1426
+msgid "Send a welcome email after someone signs up?"
+msgstr "Envoyer un email de bienvenue après qu’une personne se serq inscrit?"
+
+#: admin/inboundrocket-admin.php:1495 admin/inboundrocket-admin.php:1945
+#: inc/power-ups/click-to-tweet.php:152 inc/power-ups/click-to-tweet.php:188
+#: inc/power-ups/click-to-tweet/admin/click-to-tweet-admin.php:51
+msgid "Click To Tweet"
+msgstr "Click to Tweet"
+
+#: admin/inboundrocket-admin.php:1500 admin/inboundrocket-admin.php:1940
+msgid "Selection Sharer"
+msgstr "Sélection Sharer"
+
+#: admin/inboundrocket-admin.php:1505 admin/inboundrocket-admin.php:1953
+msgid "Welcome Bar"
+msgstr "Welcome Bar"
+
+#: admin/inboundrocket-admin.php:1510
+msgid "MailChimp"
+msgstr "MailChimp"
+
+#: admin/inboundrocket-admin.php:1515
+msgid "Aweber"
+msgstr "Aweber"
+
+#: admin/inboundrocket-admin.php:1520
+msgid "Campaign Monitor"
+msgstr "Campaign Monitor"
+
+#: admin/inboundrocket-admin.php:1525 inc/power-ups/postmatic-connector.php:74
+msgid "Postmatic"
+msgstr "Postmatic"
+
+#: admin/inboundrocket-admin.php:1530
+msgid "Exit Intent"
+msgstr "Exit Intent"
+
+#: admin/inboundrocket-admin.php:1535 admin/inboundrocket-admin.php:1958
+#: inc/power-ups/scroll-boxes/admin/scroll-box-list-table.php:19
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin-functions.php:10
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin-functions.php:22
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin.php:193
+msgid "Scroll Boxes"
+msgstr "Scroll Boxes"
+
+#: admin/inboundrocket-admin.php:1540 admin/inboundrocket-admin.php:1963
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin-functions.php:10
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin-functions.php:11
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin.php:174
+#: inc/power-ups/welcome-mat/admin/welcome-mat-list-table.php:18
+msgid "Welcome Mat"
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1549
+msgid "You have not activated any power-ups. Visit the"
+msgstr "Vous n’avez pas activé toutes les power-ups. Visiter le"
+
+#: admin/inboundrocket-admin.php:1549
+msgid "power-ups page"
+msgstr "page power-ups"
+
+#: admin/inboundrocket-admin.php:1549
+msgid "activate some today and start increasing conversions."
+msgstr ""
+"activer les power-ups aujourd’hui et commencer à augmenter les conversions."
+
+#: admin/inboundrocket-admin.php:1672
+msgid "Visitor tracking is installed and tracking visitors."
+msgstr "Le suivi des visiteurs est installé et suivre les visiteurs."
+
+#: admin/inboundrocket-admin.php:1673
+msgid ""
+"The next time a visitor fills out a form on your WordPress site with an "
+"email address, Inbound Rocket will show you the contact's referral source, "
+"page view history and actions taken on the site."
+msgstr ""
+"La prochaine fois qu’un visiteur remplit un formulaire sur votre site "
+"WordPress avec une adresse e-mail, Inbound Rocket vous indiquera la source "
+"de référence du contact, l’historique des pages visitées et les mesures "
+"prises sur le site."
+
+#: admin/inboundrocket-admin.php:1679
+msgid "Inbound Rocket is setup and waiting for a form submission..."
+msgstr "Inbound Rocket est installé et en attente du formulaire …"
+
+#: admin/inboundrocket-admin.php:1680
+msgid ""
+"Can't wait to see Inbound Rocket in action? Go fill out a form on your site "
+"to see your first contact."
+msgstr ""
+"Impatient de voir Inbound Rocket en action? Allez remplir un formulaire sur "
+"votre site pour voir votre premier contact."
+
+#: admin/inboundrocket-admin.php:1695
+msgid ""
+"Your host does not seem to support Evercookie tracking, Inbound Rocket "
+"automatically reverted back to normal HTTP Cookies for tracking. You can try "
+"again and enable Evercookie if you feel this is incorrect."
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1701
+msgid ""
+"Disabling Evercookie tracking will delete all Evercookie files from your "
+"server and enables common Cookies for tracking."
+msgstr ""
+"La désactivation de Evercookie supprimera tous les fichiers Evercookie de "
+"votre serveur et permet un suivi aux Cookies communs."
+
+#: admin/inboundrocket-admin.php:1701
+msgid ""
+"By (re) enabling Evercookie, all necessary files will be automatically "
+"downloaded and placed in the Inbound Rocket plugin folder on your server."
+msgstr ""
+"En (ré) activation Evercookie, tous les fichiers nécessaires seront "
+"automatiquement téléchargés et placés dans le dossier plugin d'Inbound "
+"Rocket sur votre serveur."
+
+#: admin/inboundrocket-admin.php:1713
+msgid "Enable statistics widget on your dashboard"
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1714
+msgid ""
+"Disabling the dashboard widget will not show your statistics on the "
+"WordPress dashboard"
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1729
+msgid "Note: 0 values in either select box will disable auto clean."
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1730
+msgid ""
+"Note: This will delete only non-converted user records from the database "
+"permanently."
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1785
+msgid ""
+"Inbound Rocket Premium will give you all the goodies of Inbound Rocket and "
+"more"
+msgstr ""
+"Inbound Rocket Premium vous donnera toutes les offres de Inbound Rockets et "
+"plus encore"
+
+#: admin/inboundrocket-admin.php:1786
+msgid ""
+"Currently your Inbound Rocket installation offers you already some great "
+"goodies"
+msgstr ""
+"Actuellement votre installation de Rocket Inbound vous donne accès a "
+"quelques offres"
+
+#: admin/inboundrocket-admin.php:1790
+msgid "Contacts Tracking"
+msgstr "Suivi des contacts"
+
+#: admin/inboundrocket-admin.php:1791
+msgid "Learn more about your visitors."
+msgstr "En savoir plus sur vos visiteurs."
+
+#: admin/inboundrocket-admin.php:1792
+msgid "Contacts Analytics"
+msgstr "Contacts Analytics"
+
+#: admin/inboundrocket-admin.php:1793
+msgid "Find out what content and traffic sources convert the best."
+msgstr ""
+"Découvrez ce que le contenu et le suivi des sources convertissent le mieux."
+
+#: admin/inboundrocket-admin.php:1794
+msgid "Helpful power-ups"
+msgstr "Power-ups utiles"
+
+#: admin/inboundrocket-admin.php:1795
+msgid ""
+"Things like our Click To Tweet, Selection Sharer, and Welcome Bar "
+"functionality will help you get more traffic and convert your visitors more "
+"easily."
+msgstr ""
+"Certaines choses comme notre Click to Twitt, la Sélection Sharer, et la "
+"fonctionnalité du Welcome Bar vous aideront à obtenir plus de trafic et à "
+"convertir vos visiteurs plus facilement."
+
+#: admin/inboundrocket-admin.php:1799
+msgid "However we got more in store for you, keep an eye out on"
+msgstr "Nous continuons de faire évoluer nos offres, gardez un oeil sur"
+
+#: admin/inboundrocket-admin.php:1799 inc/power-ups/welcome-bar.php:178
+msgid "Not using Inbound Rocket yet? - You write. We'll turn them into leads"
+msgstr ""
+"Vous n'avez pas utilisé encore pas Inbound Rocket? - Ecrivez. Nous allons "
+"transformer en prospects"
+
+#: admin/inboundrocket-admin.php:1799
+msgid "our blog"
+msgstr "notre blog"
+
+#: admin/inboundrocket-admin.php:1799
+msgid "or"
+msgstr "ou"
+
+#: admin/inboundrocket-admin.php:1799
+msgid "our Twitter"
+msgstr "notre Twitter"
+
+#: admin/inboundrocket-admin.php:1799
+msgid "to be amongst the first to find out!"
+msgstr "pour être parmi les premiers à découvrir!"
+
+#: admin/inboundrocket-admin.php:1833 admin/inboundrocket-admin.php:1872
+#: admin/inboundrocket-admin.php:1919 admin/inboundrocket-admin.php:2023
+#: admin/inboundrocket-admin.php:2047
+msgid "Activate Inbound Rocket"
+msgstr "Activer Inbound Rocket"
+
+#: admin/inboundrocket-admin.php:1834 admin/inboundrocket-admin.php:1873
+#: admin/inboundrocket-admin.php:1920 admin/inboundrocket-admin.php:2024
+#: admin/inboundrocket-admin.php:2048
+msgid "Setup up visitor tracking"
+msgstr "Configuration du suivi des visiteurs"
+
+#: admin/inboundrocket-admin.php:1835 admin/inboundrocket-admin.php:1874
+#: admin/inboundrocket-admin.php:1921 admin/inboundrocket-admin.php:2025
+#: admin/inboundrocket-admin.php:2049
+msgid "Get Contact Reports"
+msgstr "Garder le rapport de contacts"
+
+#: admin/inboundrocket-admin.php:1836 admin/inboundrocket-admin.php:1875
+#: admin/inboundrocket-admin.php:1922 admin/inboundrocket-admin.php:2026
+#: admin/inboundrocket-admin.php:2050
+msgid "Activate Power-Ups"
+msgstr "Activer Power-Ups"
+
+#: admin/inboundrocket-admin.php:1839
+msgid "How would you like us to track your visitors?"
+msgstr "Comment voulez-vous faire le suivi de vos visiteurs ?"
+
+#: admin/inboundrocket-admin.php:1841
+msgid ""
+"can track your visitors in two different ways, using normal HTTP Cookies or "
+"using a more advanced technique using Evercookies."
+msgstr ""
+"permet de faire le suivi de vos visiteurs de deux façons différentes, en "
+"utilisant des Cookies HTTP habituelles ou à l’aide d’une technique plus "
+"avancée utilisant Evercookies."
+
+#: admin/inboundrocket-admin.php:1842
+msgid ""
+"Both of them have their advantages and disadvantages. If you're not sure "
+"which to choose, you can read our support article on <a href=\"https://"
+"inboundrocket.co/support/how-the-inbound-rocket-code-works/what-is-"
+"evercookie-and-why-do-you-need-it/\" target=\"_blank\">why you need "
+"Evercookies</a>, to help you make a better decision for your organization."
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1843
+msgid "To track my visitors I would like to make use of:"
+msgstr "Pour suivre mes visiteurs, je voudrais faire usage de :"
+
+#: admin/inboundrocket-admin.php:1857
+msgid "HTTP Cookies"
+msgstr "Cookies HTTP"
+
+#: admin/inboundrocket-admin.php:1858
+msgid "Evercookie"
+msgstr "Evercookie"
+
+#: admin/inboundrocket-admin.php:1861
+msgid "Save tracking preferences"
+msgstr "Enregistrer le suivi des préférences"
+
+#: admin/inboundrocket-admin.php:1878
+msgid "Where should we send your contact reports?"
+msgstr "Où envoyer les rapports de contacts?"
+
+#: admin/inboundrocket-admin.php:1880
+msgid ""
+"will help you get to know your website visitors by sending you a report "
+"including traffic source and pageview history each time a visitor fills out "
+"a form."
+msgstr ""
+"Nous vous ferons connaitre le nombre de visiteurs sur votre site en vous "
+"retournant un rapport comprenant la source du traffic et de l’historique de "
+"vos pages visitées chaque fois qu’un visiteur remplira un formulaire"
+
+#: admin/inboundrocket-admin.php:1903
+msgid "Save Email"
+msgstr "Sauvegarde de l’e-mail"
+
+#: admin/inboundrocket-admin.php:1925
+msgid "Grow your visitors and your contacts!"
+msgstr "Augmenter le nombre de visiteurs et de contacts !"
+
+#: admin/inboundrocket-admin.php:1925
+msgid ""
+"We have developed some powerful tools which will help convert leads and grow "
+"visitors. Go ahead and enable some power-ups below:"
+msgstr ""
+"Nous avons développé des outils perfomants qui aideront à convertir les "
+"prospects et augmenteront les visiteurs. Allez-y et activez certains Power "
+"Ups ci-dessous :"
+
+#: admin/inboundrocket-admin.php:1938 admin/inboundrocket-admin.php:2237
+msgid "Sharing Power Ups"
+msgstr "Partage Power Ups"
+
+#: admin/inboundrocket-admin.php:1942
+msgid ""
+"Medium like popover menu to share on Twitter, LinkedIn, Facebook or by email "
+"any text selected on the page."
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1947
+msgid ""
+"Click-2-Tweet will enable your visitors to click important sections of your "
+"content and tweet it directly from your website."
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1951 admin/inboundrocket-admin.php:2233
+msgid "Lead Converting Power Ups"
+msgstr "Lead Converting Power Ups"
+
+#: admin/inboundrocket-admin.php:1955
+msgid ""
+"Welcome Bar sits beautifully at the top of your website, is an easy and non-"
+"intrusive way to ask people to join your email list."
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1960
+msgid ""
+"Scroll Boxes: a polite way to ask your visitors for their email address as "
+"they finish reading your latest blog post or learning about your product."
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1965
+msgid ""
+"Welcome Mat displays a full-screen call to action that shows when visitors "
+"land on your site. Encourage your visitors to join your email list, check "
+"out your popular blog post … the possibilities are endless!"
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1969 admin/inboundrocket-admin.php:2241
+msgid "Mailing List Connectors"
+msgstr "Mailing List Connectors"
+
+#: admin/inboundrocket-admin.php:1971
+msgid "MailChimp Connector"
+msgstr "MailChimp Connecteur"
+
+#: admin/inboundrocket-admin.php:1973
+msgid "Push your contacts to your MailChimp email lists."
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1976
+msgid "Campaign Monitor Connector"
+msgstr "Campaign Monitor Connector"
+
+#: admin/inboundrocket-admin.php:1978
+msgid "Push your contacts to your Campaign Monitor email lists."
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1981
+msgid "Postmatic Connector"
+msgstr "Postmatic Connector"
+
+#: admin/inboundrocket-admin.php:1983
+msgid "Push your contacts to your Postmatic email lists."
+msgstr ""
+
+#: admin/inboundrocket-admin.php:1986
+msgid "Activate these power-ups"
+msgstr "Activer ces power-ups"
+
+#: admin/inboundrocket-admin.php:1987
+msgid "Don't activate power-ups right now"
+msgstr "Ne pas activer les power-ups maintenant"
+
+#: admin/inboundrocket-admin.php:2029 admin/inboundrocket-admin.php:2053
+msgid "Setup Complete!"
+msgstr "installation complète"
+
+#: admin/inboundrocket-admin.php:2029 admin/inboundrocket-admin.php:2053
+msgid "Inbound Rocket is waiting for your first form submission."
+msgstr "Inbound Rocket est en attente de votre premier formulaire."
+
+#: admin/inboundrocket-admin.php:2031 admin/inboundrocket-admin.php:2055
+msgid "Inbound Rocket is setup and waiting for a form submission."
+msgstr "Inbound Rocket est installé et en attente du formulaire …"
+
+#: admin/inboundrocket-admin.php:2031 admin/inboundrocket-admin.php:2055
+msgid ""
+"Once Inbound Rocket detects a form submission, a new contact will be added "
+"to your contacts list. We recommend filling out a form on your site to test "
+"that Inbound Rocket is working correctly."
+msgstr ""
+"Une fois que Inbound Rocket détecte un formulaire, un nouveau contact sera "
+"ajouté à votre liste de contacts. Nous recommandons de remplir un formulaire "
+"sur votre site pour vérifier que Inbound Rocket fonctionne correctement."
+
+#: admin/inboundrocket-admin.php:2031 admin/inboundrocket-admin.php:2055
+msgid ""
+"Next to our basic form and visitor tracking the following power-ups are also "
+"activated"
+msgstr ""
+"Après le formulaire et le suivi des visiteurs, les powers-up seront activés"
+
+#: admin/inboundrocket-admin.php:2031 admin/inboundrocket-admin.php:2055
+msgid "Press \"Complete Setup\" and configure your power-ups."
+msgstr "Appuyer sur \"Installation terminée\" et configurer vos power-ups."
+
+#: admin/inboundrocket-admin.php:2032 admin/inboundrocket-admin.php:2056
+msgid "Complete Setup"
+msgstr "Installation terminée"
+
+#: admin/inboundrocket-admin.php:2066
+msgid "Any questions?"
+msgstr "Des questions ?"
+
+#: admin/inboundrocket-admin.php:2068
+msgid "Send us a message and we’re happy to help you get set up."
+msgstr "Envoyez-nous un message, nous serons ravis de vous aider."
+
+#: admin/inboundrocket-admin.php:2069 admin/inboundrocket-admin.php:2500
+msgid "Contact Inbound Rocket Support."
+msgstr "Contactez le support Inbound Rocket."
+
+#: admin/inboundrocket-admin.php:2069
+msgid "Mail with us"
+msgstr "Envoyez-nous un e-mail"
+
+#: admin/inboundrocket-admin.php:2071
+msgid ""
+"Leave us a message in the WordPress support forums. We're always happy to "
+"help you get set up and can answer any questions there."
+msgstr ""
+"Laissez-nous un message sur les forums de support WordPress. Nous serons "
+"ravis de vous aider et de répondre à toutes vos questions."
+
+#: admin/inboundrocket-admin.php:2072
+msgid "Go to Forums"
+msgstr "Visiter les forums"
+
+#: admin/inboundrocket-admin.php:2106
+msgid "Inbound Rocket Settings"
+msgstr "Paramètres de Inbound Rocket"
+
+#: admin/inboundrocket-admin.php:2140
+msgid ""
+"Separate multiple emails with commas. Leave blank to disable email "
+"notifications"
+msgstr ""
+
+#: admin/inboundrocket-admin.php:2156
+msgid "Inbound Rocket Power-ups"
+msgstr "Inbound Rocket Power-ups"
+
+#: admin/inboundrocket-admin.php:2159
+msgid ""
+"Get the most out of your Inbound Rocket installation by installing one of "
+"the below power-ups."
+msgstr ""
+"Obtenez le meilleur de votre installation de Inbound Rocket en installant "
+"l’un de ces power-ups ci-dessous."
+
+#: admin/inboundrocket-admin.php:2161
+msgid "Core Power Ups"
+msgstr "Core Power Ups"
+
+#: admin/inboundrocket-admin.php:2178
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: admin/inboundrocket-admin.php:2179
+msgid "Get some nice graphs to show you how you are doing."
+msgstr "Obtenez des graphiques pour vous montrer où vous en êtes."
+
+#: admin/inboundrocket-admin.php:2180
+msgid "View Stats"
+msgstr "Voir les statistiques"
+
+#: admin/inboundrocket-admin.php:2187
+msgid "Suggestions?"
+msgstr "Suggestions?"
+
+#: admin/inboundrocket-admin.php:2188
+msgid "Have an idea for a power-up? We'd love to hear it!"
+msgstr "Vous avez une idée pour un power-up? Nous serions ravis de l’entendre!"
+
+#: admin/inboundrocket-admin.php:2189
+msgid "Give us a shout"
+msgstr "Faites-vous entendre"
+
+#: admin/inboundrocket-admin.php:2256
+msgid "Learn more"
+msgstr "En savoir plus"
+
+#: admin/inboundrocket-admin.php:2260
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: admin/inboundrocket-admin.php:2264
+msgid "Activate"
+msgstr "Activer"
+
+#: admin/inboundrocket-admin.php:2266
+msgid "Install cURL"
+msgstr "Installez cURL"
+
+#: admin/inboundrocket-admin.php:2266
+msgid "to use this power-up."
+msgstr "pour utiliser ce power-up."
+
+#: admin/inboundrocket-admin.php:2272
+msgid "View Contacts"
+msgstr "Afficher les contacts"
+
+#: admin/inboundrocket-admin.php:2273 admin/inboundrocket-admin.php:2275
+msgid "Configure"
+msgstr "Configurer"
+
+#: admin/inboundrocket-admin.php:2410
+#: admin/inc/class-inboundrocket-list-table.php:648
+msgid "submitted"
+msgstr "soumettre"
+
+#: admin/inboundrocket-admin.php:2411
+msgid "any form"
+msgstr "toute forme"
+
+#: admin/inboundrocket-admin.php:2412
+msgid "add to"
+msgstr "ajouter à…"
+
+#: admin/inboundrocket-admin.php:2413
+msgid "remove from"
+msgstr "Supprimer de"
+
+#: admin/inboundrocket-admin.php:2414
+msgid "Add List"
+msgstr "Ajouter la liste"
+
+#: admin/inboundrocket-admin.php:2465 admin/inboundrocket-admin.php:2468
+msgid "Go back to"
+msgstr ""
+
+#: admin/inboundrocket-admin.php:2465 admin/inboundrocket-admin.php:2468
+msgid "settings"
+msgstr ""
+
+#: admin/inboundrocket-admin.php:2474
+msgid "Settings saved"
+msgstr ""
+
+#: admin/inboundrocket-admin.php:2500
+msgid "Contact Us"
+msgstr "Contactez-nous"
+
+#: admin/inboundrocket-admin.php:2502
+msgid "Support forums"
+msgstr "Forums du support"
+
+#: admin/inboundrocket-admin.php:2504
+msgid "Get product &amp; security updates"
+msgstr "Obtenez des mises à jour de produits et sécurité"
+
+#: admin/inboundrocket-admin.php:2505
+msgid "Leave us a review"
+msgstr "Laissez-nous votre avis"
+
+#: admin/inboundrocket-admin.php:2509
+msgid "Follow @inboundrocket"
+msgstr "Suivre @inboundrocket"
+
+#: admin/inboundrocket-admin.php:2606
+msgid "Unique Visitors"
+msgstr "visiteurs uniques"
+
+#: admin/inboundrocket-admin.php:2623
+msgid "Average"
+msgstr "Moyenne"
+
+#: admin/inboundrocket-admin.php:2631
+msgid "Weekends"
+msgstr "Weekends"
+
+#: admin/inc/class-inboundrocket-lead-list-table.php:41
+msgid "No tags found."
+msgstr "Aucun mots-clés trouvés."
+
+#: admin/inc/class-inboundrocket-lead-list-table.php:84
+#: inc/power-ups/scroll-boxes/admin/scroll-box-list-table.php:44
+#: inc/power-ups/welcome-mat/admin/welcome-mat-list-table.php:51
+msgid "Edit"
+msgstr "Editer"
+
+#: admin/inc/class-inboundrocket-lead-list-table.php:85
+#: admin/inc/class-inboundrocket-list-table.php:99
+msgid "Delete"
+msgstr "Supprimer"
+
+#: admin/inc/class-inboundrocket-list-table.php:60
+msgid "No contacts found."
+msgstr "Aucun contact trouvé."
+
+#: admin/inc/class-inboundrocket-list-table.php:98
+msgid "View"
+msgstr "Afficher"
+
+#: admin/inc/class-inboundrocket-list-table.php:135
+#: inc/power-ups/contacts/admin/contacts-admin.php:437
+msgid "Email"
+msgstr "E-mail"
+
+#: admin/inc/class-inboundrocket-list-table.php:136
+#: inc/power-ups/contacts/admin/contacts-admin.php:441
+msgid "Original source"
+msgstr "la source d’origine"
+
+#: admin/inc/class-inboundrocket-list-table.php:137
+msgid "Visits"
+msgstr "Visites"
+
+#: admin/inc/class-inboundrocket-list-table.php:138
+msgid "Page views"
+msgstr "Pages vues"
+
+#: admin/inc/class-inboundrocket-list-table.php:139
+msgid "Forms"
+msgstr "Formulaires"
+
+#: admin/inc/class-inboundrocket-list-table.php:140
+msgid "Shares"
+msgstr "Partages"
+
+#: admin/inc/class-inboundrocket-list-table.php:141
+msgid "Last visit"
+msgstr "Dernière visite"
+
+#: admin/inc/class-inboundrocket-list-table.php:142
+msgid "Created on"
+msgstr "Créé le"
+
+#: admin/inc/class-inboundrocket-list-table.php:177
+msgid "filtered"
+msgstr "filtré"
+
+#: admin/inc/class-inboundrocket-list-table.php:179
+msgid "Add everyone tagged to a list"
+msgstr "Ajouter toutes les personnes identifiées de la liste"
+
+#: admin/inc/class-inboundrocket-list-table.php:180
+msgid "Add selected to a list"
+msgstr "Ajouter la sélection à la liste"
+
+#: admin/inc/class-inboundrocket-list-table.php:181
+msgid "Remove everyone tagged from a list"
+msgstr "Supprimer toutes les personnes identifiées de la liste"
+
+#: admin/inc/class-inboundrocket-list-table.php:182
+msgid "Remove selected from a list"
+msgstr "Supprimer la sélection de la liste"
+
+#: admin/inc/class-inboundrocket-list-table.php:183
+msgid "Delete every one tagged"
+msgstr "Supprimer toutes les personnes identifiées"
+
+#: admin/inc/class-inboundrocket-list-table.php:183
+#: admin/inc/class-inboundrocket-list-table.php:184
+msgid "from Inbound Rocket"
+msgstr "de Inbound Rocket"
+
+#: admin/inc/class-inboundrocket-list-table.php:184
+msgid "Delete selected"
+msgstr "Supprimer la sélection"
+
+#: admin/inc/class-inboundrocket-list-table.php:499
+#: admin/inc/class-inboundrocket-list-table.php:501
+msgid "Visit page"
+msgstr "Visitez la page"
+
+#: admin/inc/class-inboundrocket-list-table.php:499
+#: admin/inc/class-inboundrocket-list-table.php:501
+msgid "Direct"
+msgstr "Direct"
+
+#: admin/inc/class-inboundrocket-list-table.php:600
+msgid "Total Contacts"
+msgstr "Total de contacts"
+
+#: admin/inc/class-inboundrocket-list-table.php:604
+msgid "No Lead Lists"
+msgstr "Pas de liste de prospects"
+
+#: admin/inc/class-inboundrocket-list-table.php:628
+msgid "Manage lead lists"
+msgstr "Gérer la liste des prospects"
+
+#: admin/inc/class-inboundrocket-list-table.php:647
+msgid "viewed"
+msgstr "Consulté"
+
+#: admin/inc/class-inboundrocket-list-table.php:671
+msgid "Apply"
+msgstr "Appliquer"
+
+#: admin/inc/class-inboundrocket-list-table.php:674
+msgid "clear filter"
+msgstr "Effacer le filtre"
+
+#: admin/inc/class-stats-dashboard.php:158
+msgid "Click to View Todays Leads"
+msgstr ""
+
+#: admin/inc/class-stats-dashboard.php:167
+msgid "Click to View This Months Leads"
+msgstr ""
+
+#: admin/inc/class-stats-dashboard.php:171
+msgid "This Month"
+msgstr ""
+
+#: admin/inc/class-stats-dashboard.php:176
+msgid "Click to View All Leads"
+msgstr ""
+
+#: admin/inc/class-stats-dashboard.php:179
+msgid "Leads"
+msgstr ""
+
+#: admin/inc/class-stats-dashboard.php:180
+msgid "All Time"
+msgstr ""
+
+#: admin/inc/class-stats-dashboard.php:185
+msgid "since last month"
+msgstr ""
+
+#: admin/inc/class-stats-dashboard.php:193
+msgid "Latest Leads"
+msgstr ""
+
+#: admin/inc/class-stats-dashboard.php:209
+#: inc/power-ups/contacts/admin/contacts-admin.php:188
+#: inc/power-ups/contacts/admin/contacts-admin.php:432
+msgid "No name provided"
+msgstr "Aucun nom fourni"
+
+#: admin/inc/class-stats-dashboard.php:351
+msgctxt "timezone date format"
+msgid "Y-m-d"
+msgstr ""
+
+#: admin/inc/class-stats-dashboard.php:353
+msgctxt "timezone date format"
+msgid "d"
+msgstr ""
+
+#: inc/class-inboundrocket.php:308
+msgid "phone"
+msgstr "Téléphone"
+
+#: inc/class-inboundrocket.php:309
+msgid "phone number"
+msgstr "Numéro de téléphone"
+
+#: inc/class-inboundrocket.php:310
+msgid "last"
+msgstr "dernier"
+
+#: inc/class-inboundrocket.php:311
+msgid "last name"
+msgstr "nom de famille"
+
+#: inc/class-inboundrocket.php:312
+msgid "your last name"
+msgstr "votre nom de famille"
+
+#: inc/class-inboundrocket.php:313
+msgid "first"
+msgstr "premier"
+
+#: inc/class-inboundrocket.php:314
+msgid "first name"
+msgstr "prénom"
+
+#: inc/class-inboundrocket.php:315
+msgid "name"
+msgstr "Nom"
+
+#: inc/class-inboundrocket.php:316
+msgid "your name"
+msgstr "votre nom"
+
+#: inc/class-inboundrocket.php:317
+msgid "Checked"
+msgstr "Vérifié"
+
+#: inc/class-inboundrocket.php:318
+msgid "Not checked"
+msgstr "Non vérifié"
+
+#: inc/class-inboundrocket.php:319
+msgid "Credit card form submitted"
+msgstr "Carte de crédit pour valider"
+
+#: inc/class-inboundrocket.php:320
+msgid "Payment fields not collected for security"
+msgstr "La saisie de vos données personnelles ne seront pas enregistrées"
+
+#: inc/class-inboundrocket.php:321
+msgid "credit card"
+msgstr "carte de crédit"
+
+#: inc/class-inboundrocket.php:322
+msgid "card number"
+msgstr "numéro de carte"
+
+#: inc/class-inboundrocket.php:323
+msgid "expiration"
+msgstr "Expiration :"
+
+#: inc/class-inboundrocket.php:324
+msgid "expiry"
+msgstr "échéance"
+
+#: inc/class-inboundrocket.php:325
+msgid "month"
+msgstr "mois"
+
+#: inc/class-inboundrocket.php:326
+msgid "year"
+msgstr "année"
+
+#: inc/class-inboundrocket.php:327
+msgid "secure code"
+msgstr "code de sécurité"
+
+#: inc/class-inboundrocket.php:328
+msgid "security code"
+msgstr "code de sécurité"
+
+#: inc/class-notifier.php:42
+msgid "labeled as"
+msgstr "labeled as"
+
+#: inc/class-notifier.php:46
+msgid "by a returning visitor"
+msgstr "par un retour de visiteur"
+
+#: inc/class-notifier.php:49
+msgid "by a returning contact"
+msgstr "par un retour de contact"
+
+#: inc/class-notifier.php:51
+msgid "Form submission"
+msgstr "Formulaire de soumission"
+
+#: inc/power-ups/aweber-connector.php:79
+msgid "Authorization Code"
+msgstr ""
+
+#: inc/power-ups/aweber-connector/admin/aweber-connector-admin.php:153
+#: inc/power-ups/campaign-monitor-connector/admin/campaign-monitor-connector-admin.php:235
+#: inc/power-ups/mailchimp-connector/admin/mailchimp-connector-admin.php:269
+#: inc/power-ups/postmatic-connector/admin/postmatic-connector-admin.php:127
+msgid "connected successfully"
+msgstr "connecté avec succès"
+
+#: inc/power-ups/aweber-connector/admin/aweber-connector-admin.php:153
+#: inc/power-ups/campaign-monitor-connector/admin/campaign-monitor-connector-admin.php:235
+#: inc/power-ups/mailchimp-connector/admin/mailchimp-connector-admin.php:269
+#: inc/power-ups/postmatic-connector/admin/postmatic-connector-admin.php:127
+msgid "Select a lead list to send contacts to"
+msgstr "Sélectionnez une liste des prospects pour envoyer les contacts à"
+
+#: inc/power-ups/aweber-connector/admin/aweber-connector-admin.php:157
+msgid "How to get your Authorization Code"
+msgstr ""
+
+#: inc/power-ups/aweber-connector/admin/aweber-connector-admin.php:158
+#: inc/power-ups/campaign-monitor-connector/admin/campaign-monitor-connector-admin.php:237
+#: inc/power-ups/mailchimp-connector/admin/mailchimp-connector-admin.php:271
+#: inc/power-ups/postmatic-connector/admin/postmatic-connector-admin.php:129
+msgid "Edit your lead lists"
+msgstr "Modifier vos listes de prospects"
+
+#: inc/power-ups/aweber-connector/admin/aweber-connector-admin.php:158
+#: inc/power-ups/campaign-monitor-connector/admin/campaign-monitor-connector-admin.php:237
+#: inc/power-ups/mailchimp-connector/admin/mailchimp-connector-admin.php:271
+msgid "Create a new list on"
+msgstr "Créer une nouvelle liste dans"
+
+#: inc/power-ups/aweber-connector/admin/aweber-connector-admin.php:178
+#: inc/power-ups/mailchimp-connector/admin/mailchimp-connector-admin.php:259
+#: inc/power-ups/postmatic-connector/admin/postmatic-connector-admin.php:117
+msgid "edit list"
+msgstr "éditer la liste"
+
+#: inc/power-ups/campaign-monitor-connector.php:76
+msgid "Campaign Monitor API Key"
+msgstr "Campaign Monitor Clé API"
+
+#: inc/power-ups/click-to-tweet.php:82
+#: inc/power-ups/click-to-tweet/admin/click-to-tweet-admin.php:54
+msgid "Click To Tweet Settings"
+msgstr "Les paramètres du Click to Tweet"
+
+#: inc/power-ups/click-to-tweet.php:150 inc/power-ups/selection-sharer.php:104
+#: inc/power-ups/welcome-bar.php:147
+msgid "Not using Inbound Rocket yet? - You write. We will turn them into leads"
+msgstr ""
+"Vous n'avez pas utilisé encore pas Inbound Rocket? - Ecrivez. Nous allons "
+"transformer en prospects"
+
+#: inc/power-ups/click-to-tweet/admin/click-to-tweet-admin.php:81
+msgid "Instructions"
+msgstr "Notice d’instruction"
+
+#: inc/power-ups/click-to-tweet/admin/click-to-tweet-admin.php:82
+msgid ""
+"To use, simply include the Click to Tweet code in your post. Place your "
+"message within the parentheses. Tweet length will be automatically truncated "
+"to 120 characters."
+msgstr ""
+"Pour l’utiliser, il suffit d’inclure le code du Click to Tweet dans votre "
+"post. Placez votre message entre parenthèses. La longueur du Tweet sera "
+"automatiquement tronquée à 120 caractères."
+
+#: inc/power-ups/click-to-tweet/admin/click-to-tweet-admin.php:82
+msgid "This is a tweet. It is only a tweet."
+msgstr "Ceci est un tweet. C’est seulement un tweet."
+
+#: inc/power-ups/click-to-tweet/admin/click-to-tweet-admin.php:85
+msgid "Your Twitter Handle"
+msgstr "Pseudonyme Twitter"
+
+#: inc/power-ups/click-to-tweet/admin/click-to-tweet-admin.php:87
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:245
+msgid ""
+"Enter your Twitter handle to add \"via @yourhandle\" to your tweets. Do not "
+"include the @ symbol."
+msgstr ""
+"Entrez votre pseudonyme Twitter. Ne pas inclure le symbole @ à vos "
+"commentaires \"via @yourhandle\" ."
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:158
+msgid "Stats Dashboard"
+msgstr "Statistiques des Dashboard"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:169
+msgid "All"
+msgstr "Tout"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:171
+#: inc/power-ups/contacts/admin/contacts-admin.php:174
+#: inc/power-ups/contacts/admin/contacts-admin.php:178
+msgid "All Contacts"
+msgstr "Tous les contacts"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:187
+msgid "Contact info of:"
+msgstr "Informations du contact :"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:227
+msgid "Save To List(s)"
+msgstr "Enregistrer à la liste (s)"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:232
+msgid "edit lead lists"
+msgstr "modifier la liste des catégories"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:242
+msgid "Lead Activity"
+msgstr "Activité des prospects"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:283
+msgid "Traffic Source"
+msgstr "Source de trafic"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:328
+msgid "Filled out Form"
+msgstr "Remplir le formulaire"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:328
+msgid "on page"
+msgstr "à la page"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:331
+msgid "and tagged as"
+msgstr "et identifier comme"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:358
+msgid "Twitter (using Selection Sharer power-up)"
+msgstr "Twitter (en utilisant la sélection Sharer power-up)"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:359
+msgid "Facebook (using Selection Sharer power-up)"
+msgstr "Facebook (en utilisant Sélection Sharer power-up)"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:360
+msgid "LinkedIn (using Selection Sharer power-up)"
+msgstr "Twitter (en utilisant la sélection Sharer power-up)"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:361
+msgid "Email (using Selection Sharer power-up)"
+msgstr "Twitter (en utilisant la sélection Sharer power-up)"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:362
+msgid "Twitter (using Click-To-Tweet power-up)"
+msgstr "Twitter (en utilisant Click-To-Tweet power-up)"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:367
+msgid "Shared a text snippet from"
+msgstr "Partager un extrait de texte de"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:370
+msgid "Text shared"
+msgstr "Texte partagé"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:388
+msgid "Twitter (using Image Sharer power-up)"
+msgstr "Twitter (en utilisant l’image Sharer power-up)"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:389
+msgid "Facebook (using Image Sharer power-up)"
+msgstr "Twitter (en utilisant l’image Sharer power-up)"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:390
+msgid "Pinterest (using Image Sharer power-up)"
+msgstr "Twitter (en utilisant l’image Sharer power-up)"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:395
+msgid "Shared an image from"
+msgstr "Partagé une image de"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:398
+msgid "Image shared"
+msgstr "Image partagée"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:419
+msgid "Lead Profile"
+msgstr "Profil du prospect"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:430
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:11
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:126
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:227
+msgid "Name"
+msgstr "Nom"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:445
+msgid "First visit"
+msgstr "Première visite"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:449
+msgid "Pageviews"
+msgstr "Pages vues"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:453
+msgid "Form submissions"
+msgstr "Formulaire de soumission"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:457
+msgid "Total shares"
+msgstr "Total de partages"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:465
+msgid "Location"
+msgstr "Lieux"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:467
+msgid "View Larger Map"
+msgstr "Agrandir le plan"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:477
+msgid "Personal Info"
+msgstr "Informations Personnelles"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:477
+msgid ""
+"More background information about the contact, coming soon for premium users."
+msgstr ""
+"Plus d’informations sur le contact, bientôt disponible pour les utilisateurs "
+"premium."
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:486
+msgid "Company Info"
+msgstr "Informations sur l’entreprise"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:491
+msgid ""
+"In our upcoming release for premium users we will display all relevant "
+"company info."
+msgstr ""
+"Dans notre prochaine version pour les utilisateurs premium, nous afficherons "
+"toutes les infos de la société concernée."
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:521
+msgid "Notes"
+msgstr "Notes"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:557
+msgid "Search all contacts"
+msgstr "Rechercher tous les contacts"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:602
+msgid "Select a lead list to add to"
+msgstr "Sélectionnez une liste de prospects à ajouter à"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:628
+msgid "Filtered Contacts"
+msgstr "Contacts filtrées"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:632
+msgid "Export All "
+msgstr "Tout exporter"
+
+#: inc/power-ups/contacts/admin/contacts-admin.php:633
+msgid "Export Selected "
+msgstr "Export selectionné"
+
+#: inc/power-ups/exit-intent.php:83
+msgid "Exit Intent Settings"
+msgstr "Les paramètres de Exit Intent"
+
+#: inc/power-ups/exit-intent/admin/exit-intent-admin.php:93
+msgid "Popup Width:"
+msgstr "Largeur de la Popup :"
+
+#: inc/power-ups/exit-intent/admin/exit-intent-admin.php:97
+msgid "Popup Height:"
+msgstr "Hauteur de la Popup :"
+
+#: inc/power-ups/exit-intent/admin/exit-intent-admin.php:101
+msgid "Background Image URL:"
+msgstr "Url de l’Image de fond :"
+
+#: inc/power-ups/exit-intent/admin/exit-intent-admin.php:119
+msgid "Popup delay every X minutes:"
+msgstr "Popup toutes les X minutes :"
+
+#: inc/power-ups/exit-intent/admin/exit-intent-admin.php:127
+msgid "Stylesheet:"
+msgstr "Feuille de style :"
+
+#: inc/power-ups/image-sharer/admin/image-sharer-admin.php:36
+msgid "Image Sharer"
+msgstr "Image Sharer"
+
+#: inc/power-ups/image-sharer/admin/image-sharer-admin.php:39
+msgid "Image Sharer Settings"
+msgstr "Paramètres d’Image Sharer"
+
+#: inc/power-ups/mailchimp-connector.php:76
+msgid "MailChimp API Key"
+msgstr "Clé d’API MailChimp"
+
+#: inc/power-ups/postmatic-connector/admin/postmatic-connector-admin.php:133
+msgid "It seems you need to complete your Postmatic configuration."
+msgstr ""
+"Il semble que vous avez besoin de terminer la configuration de votre "
+"Postmatic."
+
+#: inc/power-ups/postmatic-connector/admin/postmatic-connector-admin.php:136
+msgid "In order for this power-up to work you will need to install"
+msgstr "Afin que ce Power-Up fonctionne, vous aurez besoin d’installer"
+
+#: inc/power-ups/scroll-boxes.php:89
+msgid "Scroll Boxes Settings"
+msgstr "Paramètres des Scroll Boxes"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:6
+msgid "Background color"
+msgstr "Couleur d’arrière-plan"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:8
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:13
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:25
+msgid "Choose a color"
+msgstr "Choisir une couleur"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:11
+msgid "Text color"
+msgstr "Couleur du texte"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:16
+msgid "Box width"
+msgstr "Largeur de la Popup :"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:18
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:30
+msgid "Enter value in px"
+msgstr "Entrer une valeur en pixels"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:23
+msgid "Border color"
+msgstr "Couleur de bordure"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:28
+msgid "Border width"
+msgstr "Largeur de la bordure"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:33
+msgid "Border style"
+msgstr "Style de bordure"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:36
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:13
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:141
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:423
+msgid "Default"
+msgstr "Par Default"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:39
+msgid "Solid"
+msgstr "Solide"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:42
+msgid "Dashed"
+msgstr "Trait interrompu"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:45
+msgid "Dotted"
+msgstr "Pointillés "
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:48
+msgid "Double"
+msgstr "Double "
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:51
+msgid "Select from option"
+msgstr "Sélectionner une option"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-appearance-view.php:56
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:594
+msgid "Manual CSS"
+msgstr "Manuel CSS"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:4
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:5
+msgid "Select a condition"
+msgstr "Sélectionner une condition"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:5
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:6
+msgid "everywhere"
+msgstr "partout"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:6
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:7
+msgid "if page is"
+msgstr "si la page est"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:7
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:8
+msgid "if page is not"
+msgstr ""
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:8
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:9
+msgid "if post is"
+msgstr "si le poste est"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:9
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:10
+msgid "if post is not"
+msgstr ""
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:10
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:11
+msgid "if post is in category"
+msgstr ""
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:11
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:12
+msgid "if post is not in category"
+msgstr ""
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:12
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:13
+msgid "if post type is"
+msgstr "si le type de poste est"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:13
+msgid "if post type is not"
+msgstr ""
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:17
+msgid "Select box position"
+msgstr "Choisisser la position de la Popup"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:18
+msgid "Top Left"
+msgstr "En Haut à Gauche"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:19
+msgid "Top Right"
+msgstr "En haut à droite"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:20
+msgid "Middle"
+msgstr "Millieu"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:21
+msgid "Bottom Left"
+msgstr "En Bas à gauche"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:22
+msgid "Bottom Right"
+msgstr "En Bas à droite"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:27
+msgid "Box Position"
+msgstr "Position de la box"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:39
+msgid "Animation"
+msgstr "Animation"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:41
+msgid "Fade In"
+msgstr "Faire apparaitre en fondu"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:42
+msgid "Slide In"
+msgstr "Glisser"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:43
+msgid "Which animation type should be used to show the box?"
+msgstr "Quel type d’animation devrait être utilisé pour afficher la Popup ?"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:48
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin.php:170
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:41
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin.php:151
+msgid "Enable test mode?"
+msgstr "Activer le mode test?"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:50
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:78
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin.php:172
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:43
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin.php:153
+msgid "Yes"
+msgstr "Oui "
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:51
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:79
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin.php:173
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:44
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin.php:154
+msgid "No"
+msgstr "Non "
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:52
+msgid ""
+"If test mode is enabled, this box will show up regardless of whether a "
+"cookie has been set."
+msgstr ""
+"Si le mode test est activé, cette Popup apparaît indépendamment et sans "
+"savoir si un cookie a été défini."
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:57
+msgid "Cookie expiration"
+msgstr ""
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:60
+msgid "After closing the box, how many days should it stay hidden?"
+msgstr ""
+"Lorsque la Popup est fermé par l'utilisateur, combien de jours doit- il "
+"rester caché ?"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:65
+msgid "Show Box"
+msgstr "Voir la Popup"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:67
+msgid "Matching custom rules"
+msgstr "Correspondance des règles personnalisées"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:68
+msgid "Immediately after loading the page."
+msgstr "Immédiatement après le chargement de la page."
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:69
+#, php-format
+msgid "When at %s of page height"
+msgstr "A %s de la hauteur de la page"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:70
+#, php-format
+msgid "When at element %s"
+msgstr "A %s de l’élément"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:70
+msgid "Example: #comments"
+msgstr "Exemple : #comments"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:76
+msgid "Auto-hide?"
+msgstr "Masquer automatiquement ?"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:80
+msgid "Hide box again when visitors scroll back up?"
+msgstr ""
+"Cacher de nouveau la Popup lorsque les visiteurs défilent vers le haut ?"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:85
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:102
+msgid "Do not auto-show box on small screens?"
+msgstr "Ne pas afficher automatiquement la Popup sur des petits écrans ?"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:87
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:104
+#, php-format
+msgid "Do not auto-show on screens smaller than %s."
+msgstr ""
+"Ne pas afficher automatiquement la Popup sur des écrans plus petits que %s."
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:88
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:105
+msgid ""
+"Set to <code>0</code> if you <strong>do</strong> want to auto-show the box "
+"on small screens."
+msgstr ""
+"Inscrivez <code>0</code>, si vous <strong>voulez</strong> montrer "
+"automatiquement la Popup sur des petits écrans."
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:95
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:111
+msgid "Custom Rules"
+msgstr "Règles personnelles"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:97
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:113
+msgid "Request matches"
+msgstr "La demande correspond à"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:99
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:115
+msgid "any"
+msgstr "une des"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:100
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:116
+msgid "all"
+msgstr "toutes les"
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:102
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:118
+msgid "of the following conditions."
+msgstr "conditions suivantes."
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:125
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:141
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:144
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:159
+msgid "Leave empty for any or enter (comma-separated) names or ID's"
+msgstr ""
+"Laissez vide pour toute entrées de noms (séparées par des virgules) ou ID."
+
+#: inc/power-ups/scroll-boxes/admin/metaboxes/scroll-box-option-view.php:135
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:167
+msgid "Add rule"
+msgstr "Ajouter des règles"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-box-list-table.php:18
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin-functions.php:11
+msgid "Scroll Box"
+msgstr "Scroll Box"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-box-list-table.php:61
+msgid "Box ID"
+msgstr "ID de la Popup"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-box-list-table.php:62
+msgid "Box Title"
+msgstr "titre de la Popup"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-box-list-table.php:63
+#: inc/power-ups/welcome-mat/admin/welcome-mat-list-table.php:62
+msgid "Publish Date"
+msgstr "Date de publication"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-box-list-table.php:106
+msgid "No scroll boxes found."
+msgstr "Pas de popup trouvée"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin-functions.php:13
+msgid "Add New Box"
+msgstr "Ajouter une Popup"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin-functions.php:14
+msgid "Edit Box"
+msgstr "Editer une Popup"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin-functions.php:15
+msgid "New Box"
+msgstr "Nouvelle Popup"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin-functions.php:16
+msgid "All Boxes"
+msgstr "Toutes les Popups"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin-functions.php:17
+msgid "View Box"
+msgstr "Voir la Popup"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin-functions.php:18
+msgid "Search Boxes"
+msgstr "Chercher les Popups"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin-functions.php:19
+msgid "No Boxes found"
+msgstr "Pas de Popup trouvé"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin-functions.php:20
+msgid "No Boxes found in Trash"
+msgstr "Pas de Popup trouvé dans la poubelle"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin-functions.php:48
+msgid "Box Appearance"
+msgstr "Apparence de la Popup"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin-functions.php:57
+msgid "Box Options"
+msgstr "Options de la Popup"
+
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin.php:174
+msgid ""
+"If test mode is enabled, all scroll boxes will show up regardless of whether "
+"a cookie has been set."
+msgstr ""
+
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin.php:183
+msgid "Scroll box was deleted successfully."
+msgstr "La Popup a été supprimée avec succès."
+
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin.php:187
+msgid "Scroll Box with ID "
+msgstr ""
+
+#: inc/power-ups/scroll-boxes/admin/scroll-boxes-admin.php:195
+msgid "Deleted Boxes"
+msgstr "Supprimer la Popup"
+
+#: inc/power-ups/selection-sharer.php:91
+msgid "Selection Sharer Settings"
+msgstr "Les paramètres de sélection Sharer"
+
+#: inc/power-ups/selection-sharer.php:104
+msgid "Not using Inbound Rocket yet?"
+msgstr "Vous n'avez pas encore utilisé Inbound Rocket?"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:142
+msgid "Hide or Show the Selection shares on the frontend."
+msgstr "Masquer ou afficher les actions de sélection dans le frontend."
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:145
+msgid "Hide/Show shared text"
+msgstr "Masquer/afficher texte partagé"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:146
+msgid "If you prefer not to show the previously shared text uncheck this box."
+msgstr ""
+"Si vous préférez ne pas montrer le texte précédemment partagé décochez cette "
+"case."
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:149
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:402
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:541
+msgid "Background Color"
+msgstr ""
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:153
+msgid "Short URL service"
+msgstr "URL court"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:159
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:174
+msgid "credentials"
+msgstr "Identifiants"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:162
+msgid "API key"
+msgstr "Clé API"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:166
+msgid "Tool key"
+msgstr "Tool key"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:170
+msgid "Channel"
+msgstr "Chaînes"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:177
+msgid "Login name"
+msgstr "Nom d’utilisateur"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:181
+msgid "API key:"
+msgstr "Clé d’API :"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:198
+msgid "Campaign variables"
+msgstr "Variables de campagne"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:199
+msgid "Add Google Analytics campaign variables to the permalink for tracking."
+msgstr ""
+"Ajouter des variables de campagne Google Analytique au lien permanent pour "
+"le suivi."
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:202
+msgid "Email Settings"
+msgstr ""
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:205
+msgid "Enable Email Share"
+msgstr ""
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:209
+msgid "Email Subject"
+msgstr ""
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:213
+msgid ""
+"Note: The email subject has a few available shortcodes: [selection] to show "
+"the selected text or [title] to show the current page title."
+msgstr ""
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:216
+msgid "LinkedIn Settings"
+msgstr ""
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:219
+msgid "Enable LinkedIn Share"
+msgstr ""
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:223
+msgid "Facebook Settings"
+msgstr "Paramètres de Facebook"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:226
+msgid "Enable Facebook Share"
+msgstr ""
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:230
+msgid ""
+"Note: for Facebook Sharing to be able to work you will need to have a "
+"Facebook App ID. Inbound Rocket can automatically include your fb:app_id "
+"meta tag information in your theme if you enter it below. To get or create "
+"your Facebook App ID click"
+msgstr ""
+"Remarque : pour pouvoir utiliser le partage de Facebook, vous devrez avoir "
+"un Facebook App ID. Inbound Rocket peut automatiquement inclure votre fb:"
+"app_id meta tag dans votre template si vous l'entrez ci-dessous. Pour avoir "
+"ou pour créer votre Facebook App ID, cliquez"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:230
+msgid "here"
+msgstr "ici"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:233
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:234
+msgid "Enter your Facebook App ID to add Facebook sharing."
+msgstr "Entrez votre Facebook App ID pour ajouter le partage de Facebook."
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:237
+msgid "Twitter Settings"
+msgstr "Paramètres de Twitter"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:240
+msgid "Enable Twitter Share"
+msgstr ""
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:244
+msgid "Twitter username"
+msgstr "Votre nom d’utilisateur Twitter"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:248
+msgid "Tweet suffix"
+msgstr "Le suffixe du Tweet"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:250
+msgid "You can suffix your automated tweets with extra hashtags, like"
+msgstr ""
+"Vous pouvez automatiser le suffixe de vos tweets avec les hashtags "
+"supplémentaires, comme"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:250
+msgid "#hashtag"
+msgstr "#hashtag"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:253
+msgid "Drop suffix"
+msgstr "Ne pas utiliser de suffixe"
+
+#: inc/power-ups/selection-sharer/admin/selection-sharer-admin.php:254
+msgid "Drop the suffix if the tweet exceeds 140 characters."
+msgstr "N’utilisez pas de suffixe si le tweet est supérieure à 140 caractères."
+
+#: inc/power-ups/welcome-bar.php:84
+msgid "Welcome Bar Settings"
+msgstr "Les paramètres du Welcome Bar"
+
+#: inc/power-ups/welcome-bar.php:152 inc/power-ups/welcome-bar.php:174
+msgid "Thank you for signing up!"
+msgstr "Merci de votre inscription !"
+
+#: inc/power-ups/welcome-bar.php:152 inc/power-ups/welcome-bar.php:176
+msgid "Join Our Mailing List"
+msgstr "Inscrivez-vous à notre mailing list"
+
+#: inc/power-ups/welcome-bar.php:160 inc/power-ups/welcome-bar.php:189
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:10
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:42
+msgid "Email Address"
+msgstr "Adresses e-mail"
+
+#: inc/power-ups/welcome-bar.php:161 inc/power-ups/welcome-bar.php:190
+msgid "Submit"
+msgstr "Soumettre"
+
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:131
+msgid "Show Welcome Bar"
+msgstr ""
+
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:134
+msgid "on both desktop and mobile"
+msgstr "sur l’ordinateur et portable"
+
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:135
+msgid "on desktop only"
+msgstr "sur l'ordinateur uniquement"
+
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:136
+msgid "on mobile only"
+msgstr "sur portable uniquement"
+
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:141
+msgid "Auto-hide welcome bar on submission"
+msgstr ""
+
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:147
+msgid "Call to Action (Desktop)"
+msgstr "Call to Action (ordinateur)"
+
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:149
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:164
+msgid ""
+"Customise the message and call to action for visitors on a desktop browser."
+msgstr ""
+"Pour les visiteurs, personnaliser le message et le call to action sur un "
+"navigateur."
+
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:152
+msgid "Call to Action (Mobile)"
+msgstr "Call to Action (Mobile)"
+
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:154
+msgid ""
+"Customise the message and call to action for visitors on a mobile browser."
+msgstr ""
+"Pour les visiteurs, personnaliser le message et le call to action sur un "
+"navigateur mobile."
+
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:157
+msgid "Email Address Placeholder Text"
+msgstr "Texte de remplissage de l’Email"
+
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:159
+msgid "Customise the email input field placeholder text."
+msgstr "Personnaliser le texte de remplissage réservé au champ de la saisie."
+
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:162
+msgid "Button text"
+msgstr "Texte du bouton"
+
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:167
+msgid "Success text"
+msgstr "Message de “réussite”"
+
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:169
+msgid "Customise the thank you message."
+msgstr "Personnaliser le message de remerciement."
+
+#: inc/power-ups/welcome-bar/admin/welcome-bar-admin.php:186
+msgid "Pick your welcome bar colors"
+msgstr ""
+
+#: inc/power-ups/welcome-mat.php:91
+msgid "Welcome Mat Settings"
+msgstr ""
+
+#: inc/power-ups/welcome-mat.php:1251
+msgid "Powered by Inbound Rocket"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:5
+msgid "Main Heading"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:9
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:137
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:280
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:419
+msgid "Font"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:11
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:139
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:421
+msgid "Select font"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:124
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:251
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:394
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:533
+msgid "Text Color"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:133
+msgid "Sub Heading"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:260
+msgid "Background Color and/or image"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:262
+msgid "Choose a background color"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:266
+msgid "Image"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:269
+msgid ""
+"Enter an URL or upload an image for the banner. Recommended size: 1920 x "
+"1080 or 3840 x 2160 (for retina displays)"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:275
+msgid "Submit Button"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:277
+msgid "Enter submit button text"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:398
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:537
+msgid "Text Hover"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:406
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:545
+msgid "Background Hover Color"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:415
+msgid "No, thanks Button"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:555
+msgid "Arrow Icon"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:581
+msgid "Arrow color"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-appearance-view.php:585
+msgid "Arrow border color"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:9
+msgid "Select a field type"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:12
+msgid "First name"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:13
+msgid "Last name"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:14
+msgid "Company"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:15
+msgid "Zip code"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:16
+msgid "Country dropdown"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:17
+msgid "Website URL"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:18
+msgid "Phone number"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:19
+msgid "Single-line text input"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:20
+msgid "Dropdown list"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:21
+msgid "Checkbox input"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:22
+msgid "Checkbox group"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:23
+msgid "Radio group"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:24
+msgid "Hidden value"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:32
+msgid "Field Type"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:33
+msgid "Field Name"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:34
+msgid "Required"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:35
+msgid "Variable Name"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:47
+msgid "Your email address"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:116
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:217
+msgid "Add Options"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:120
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:221
+msgid "Add"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:121
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:222
+msgid "Save"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:127
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:228
+msgid "Value"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-fields-view.php:255
+msgid "Add Field"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:14
+msgid "if post type isn’t"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:18
+msgid "Select a display mode"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:19
+msgid "Normal"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:20
+msgid "Embedded"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:24
+msgid "Don't pass form fields"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:25
+msgid "Pass form fields as a GET variable"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:26
+msgid "Pass form fields as a POST variable"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:30
+msgid "Always Show"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:31
+msgid "Minutes"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:32
+msgid "Hours"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:33
+msgid "Days"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:34
+msgid "Months"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:35
+msgid "Years"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:45
+msgid ""
+"If test mode is enabled, this Welcome Mat will show up regardless of whether "
+"a cookie has been set."
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:50
+msgid "Frequency"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:60
+msgid ""
+"Do NOT show welcome mat to the same visitor again until this much time has "
+"passed."
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:65
+msgid "Do not show if opted out"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:71
+msgid ""
+"(Toggle \"ON\" and this mat WON'T show to someone who has already opted out "
+"of this app.)"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:77
+msgid "Enable instant landing page"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:84
+msgid "Removes visitors ability to scroll down. (Increases conversion 2x!)"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:90
+msgid "Display Mode"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:97
+msgid "Set how the mat is displayed on the page"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:173
+msgid "After Success Redirect URL"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:174
+msgid "After a successful subscribe, redirect the user to the specified URL"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:175
+msgid ""
+"(Your URL must contain \"http://\" or \"https://\". Example: http://www."
+"yourwebsite.com/thankyou)"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:184
+msgid "Pass forms field to Success Redirect URL"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:185
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:200
+msgid ""
+"Need to do something  with the form  fields on the Success page? Pass it to "
+"the Success Redirect URL."
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/metaboxes/welcome-mat-option-view.php:199
+msgid "POST/GET Variable Name"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin-functions.php:13
+msgid "Add New Welcome Mat"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin-functions.php:14
+msgid "Edit Welcome Mat"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin-functions.php:15
+msgid "New Welcome Mat"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin-functions.php:16
+msgid "All Welcome Mat"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin-functions.php:17
+msgid "View Welcome Mat"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin-functions.php:18
+msgid "Search Welcome Mates"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin-functions.php:19
+msgid "No Welcome Mates found"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin-functions.php:20
+msgid "No Welcome Mates found in Trash"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin-functions.php:22
+msgid "Welcome Mates"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin-functions.php:48
+msgid "Welcome Mat Design"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin-functions.php:57
+msgid "Welcome Mat Fields"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin-functions.php:66
+msgid "Welcome Mat Behaviour"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin.php:155
+msgid ""
+"If test mode is enabled, all welcome mats will show up regardless of whether "
+"a cookie has been set."
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin.php:164
+msgid "Welcome Mat was deleted successfully."
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin.php:168
+msgid "Welcome Mat with ID "
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-admin.php:176
+msgid "Deleted Welcome Mats"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-list-table.php:19
+msgid "Welcome Mats"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-list-table.php:60
+msgid "ID"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-list-table.php:61
+msgid "Title"
+msgstr ""
+
+#: inc/power-ups/welcome-mat/admin/welcome-mat-list-table.php:102
+msgid "No Welcome Mats found."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Inbound Rocket"
+msgstr "Inbound Rocket"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/inbound-rocket/"
+msgstr "http://wordpress.org/extend/plugins/inbound-rocket/"
+
+#. Description of the plugin/theme
+msgid ""
+"Introducing a new way of generating traffic and converting them into leads "
+"on WordPress. Inbound Rocket is an easy-to-use marketing automation plugin "
+"for WordPress. It features visitor activity tracking and the management of "
+"incoming leads to better understand your web visitors. It also offers great "
+"power-ups to help you get even more visitors and help them convert to leads, "
+"subscribers and customers."
+msgstr ""
+"Voici une nouvelle façon de générer du trafic et de le convertir en "
+"prospects sur WordPress. Inbound Rocket est facile d’utilisation pour le "
+"marketing automation plugins sous Wordpress. Il dispose d’un suivi "
+"d’activités des visiteurs et d’une gestion des entrants qui amène à mieux "
+"comprendre vos visiteurs web. Il offre également de grands power-ups pour "
+"vous aider à obtenir encore plus de visiteurs et à les convertir en "
+"prospects, abonnés et clients."
+
+#. Author URI of the plugin/theme
+msgid "https://inboundrocket.co/"
+msgstr "https://inboundrocket.co/"
+
+#~ msgid "You do not have sufficient permissions to access this page."
+#~ msgstr "Vous n’avez pas les droits suffisants pour accéder à cette page."
+
+#~ msgid ""
+#~ "Both of them have their advantages and disadvantages. If you're not sure "
+#~ "which to choose, you can read our support article on <a href=\"http://"
+#~ "inboundrocket.co/support/how-the-inbound-rocket-code-works/what-is-"
+#~ "evercookie-and-why-do-you-need-it/\" target=\"_blank\">why you need "
+#~ "Evercookies</a>, to help you make a better decision for your organization."
+#~ msgstr ""
+#~ "Tous les deux ont leurs avantages et leurs inconvénients. Si vous ne "
+#~ "savez pas lequel choisir, vous pouvez lire notre article de support sur "
+#~ "<a href=\"http://inboundrocket.co/support/how-the-inbound-rocket-code-"
+#~ "works/what-is-evercookie-and-why-do-you-need-it/\" target=\"_blank"
+#~ "\">pourquoi vous avez besoin d’Evercookies</a>, pour vous aider à prendre "
+#~ "une meilleure décision dans votre organisation."
+
+#~ msgid ""
+#~ "Separate multiple emails with commas. Leave blank to disable email "
+#~ "notifications."
+#~ msgstr ""
+#~ "Séparez plusieurs adresses email avec des virgules. Laissez un espace "
+#~ "vide pour désactiver les notifications par email."
+
+#~ msgid "Settings saved."
+#~ msgstr "Réglages enregistrés."
+
+#~ msgid "Aweber API Key"
+#~ msgstr "Clé d’API Aweber"
+
+#~ msgid "if is post in category"
+#~ msgstr "si le post est dans la catégorie"
+
+#~ msgid "Cookie expiration days"
+#~ msgstr "Expiration de cookie"
+
+#~ msgid ""
+#~ "If test mode is enabled, all boxes will show up regardless of whether a "
+#~ "cookie has been set."
+#~ msgstr ""
+#~ "Si le mode test est activé, cette Popup apparaît indépendamment et sans "
+#~ "savoir si un cookie a été défini."
+
+#~ msgid "Scroll boxes were deleted successfully."
+#~ msgstr "Les Popup ont été supprimés avec succès."
+
+#~ msgid "Behavior"
+#~ msgstr "Comportement"
+
+#~ msgid "Pick a color style"
+#~ msgstr "Choisissez un style de couleur"
+
+#~ msgid "Show Welcome Bar on"
+#~ msgstr "Afficher la barre de Bienvenue sur"
+
+#~ msgid "http://inboundrocket.co/"
+#~ msgstr "http://inboundrocket.co/"
+
+#~ msgid " scroll boxes were deleted successfully."
+#~ msgstr "Les Popup ont été supprimés avec succès."
+
+#~ msgid "Push tagged contacts to these %s lists"
+#~ msgstr "Diriger les contacts identifiés vers ces %s listes"
+
+#~ msgid "Powered by Inbound Rocket - You write. We'll turn them into leads"
+#~ msgstr "Powered by Inbound Rocket - You write. We'll turn them into leads"
+
+#~ msgid "Grow your visitors and your contacts on"
+#~ msgstr "Augmenter le nombre de visiteurs et de contacts sur"
+
+#~ msgid "by activating power-ups now"
+#~ msgstr "en activant des power-ups maintenant"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "connected succesfully!"
+#~ msgstr "connecté avec succès!"
+
+#~ msgid "Powered by Inbound Rocket - You write. We will turn them into leads"
+#~ msgstr "Powered by Inbound Rocket - You write. We will turn them into leads"
+
+#~ msgid "HTML Code:"
+#~ msgstr "Code HTML :"
+
+#~ msgid "powered by"
+#~ msgstr "Réalisé par"
+
+#~ msgid ""
+#~ "Below you can customise the Twitter settings of the Selection Sharer "
+#~ "power-up."
+#~ msgstr ""
+#~ "Ci-dessous vous pouvez personnaliser les paramètres de la sélection "
+#~ "Twitter Sharer power-up."
+
+#~ msgid ""
+#~ "Note: for Facebook Sharing to be able to work you will need to have a "
+#~ "Facebook App ID. Be sure to include fb:app_id meta tag information in "
+#~ "your theme otherwise the Facebook share button will not show."
+#~ msgstr ""
+#~ "Remarque : pour pouvoir utiliser le partage de Facebook, vous devrez "
+#~ "avoir un Facebook App ID. N’oubliez pas d’inclure les informations fb:"
+#~ "app_id meta tag dans votre template sinon le bouton de partage de "
+#~ "Facebook ne s’affichera pas."
+
+#~ msgid ""
+#~ "If you prefer to not show the previously shared text uncheck this box."
+#~ msgstr ""
+#~ "Si vous préférez ne pas montrer le texte précédemment partagé décochez "
+#~ "cette case."
+
+#~ msgid ""
+#~ "Introducing a new way of generating traffic and converting them into "
+#~ "leads on WordPress. Inbound Rocket is an easy-to-use marketing automation "
+#~ "plugin for Wordpress. It features visitor activity tracking and the "
+#~ "management of incoming leads to better understand your web visitors. It "
+#~ "also offers great power-ups to help you get even more visitors and help "
+#~ "them convert to leads, subscribers and customers."
+#~ msgstr ""
+#~ "Voici une nouvelle façon de générer du trafic et de le convertir en "
+#~ "prospects sur WordPress. Inbound Rocket est facile d’utilisation pour le "
+#~ "marketing automation plugins sous Wordpress. Il dispose d’un suivi "
+#~ "d’activités des visiteurs et d’une gestion des entrants qui amène à mieux "
+#~ "comprendre vos visiteurs web. Il offre également de grands power-ups pour "
+#~ "vous aider à obtenir encore plus de visiteurs et de à les convertir en "
+#~ "prospects, abonnés et clients."
+
+#~ msgid "MailChimp connected successfully"
+#~ msgstr "MailChimp connecté avec succès"
+
+#~ msgid "Select a lead list to send contacts to MailChimp"
+#~ msgstr ""
+#~ "Sélectionnez une liste de catégorie pour envoyer les contacts à MailChimp"
+
+#~ msgid "Create a new list on MailChimp.com"
+#~ msgstr "Créer une nouvelle liste sur MailChimp.com"
+
+#~ msgid "MailChimp Settings"
+#~ msgstr "Les paramètres de MailChimp"

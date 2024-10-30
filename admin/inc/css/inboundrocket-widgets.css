@@ -1,0 +1,165 @@
+/* Inbound Rocket Dashboard Widget CSS */
+.ir-leads-all-time, .ir-leads-today, .ir-leads-this-month {
+    display: inline-block;
+    width: 32%;
+}
+
+.ir-data-block.ir-widget-block {
+    display: block;
+    text-align: center;
+    margin-left: 8px;
+    margin-top: -1px;
+}
+
+.ir-data-block section {
+    padding: 10px;
+    border: 1px solid #CECDCA;
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.ir-data-block.ir-widget-block section > span, .ir-data-block.ir-widget-block strong {
+    color: #00caf0;
+    display: block;
+    font-size: 39.6px;
+    line-height: 1;
+}
+
+a.ir-data-block.ir-widget-block {
+	color: #f67d42;
+}
+
+.ir-data-block.ir-widget-block strong {
+    color: #f67d42;
+    line-height: 1;
+}
+
+.ir-data-block.ir-widget-block strong {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.ir-data-block {
+    position: relative;
+    margin-bottom: 20px;
+
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.ir-data-block small {
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    bottom: -20px;
+    width: 100%;
+}
+
+a.ir-data-block.ir-widget-block:hover {
+    text-decoration: none;
+}
+
+.ir-data-block section:hover {
+    background: #00caf0;
+    color: #fff;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.cd-dropdown > span:hover {
+    color: #5C5C5C;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.cd-dropdown > span:hover, .cd-active.cd-dropdown > span {
+    color: #5C5C5C;
+}
+
+a.ir-data-block.ir-widget-block:hover span, a.ir-data-block.ir-widget-block:hover strong {
+    color: #FFF;
+}
+
+a.ir-data-block.ir-widget-block:hover .ir-negative-leads span {
+    color: red;
+}
+
+.ir-positive-leads, .ir-lead-growth {
+    color: green;
+
+}
+
+.daily-lead {
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin: 0px;
+    padding-bottom: 3px;
+}
+
+small.positive-leads span {
+    font-size: 13px;
+    padding-right: 2px;
+    font-weight: 700;
+}
+
+a.data-block.widget-block.db-active .positive-leads span {
+    font-weight: bold;
+    color: green;
+}
+
+.negative-leads {
+    color: red;
+}
+
+#leads-list h4 {
+    background-color: #E0E0E0;
+    border-color: #CECDCA;
+    padding: 10px 0px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 18px;
+    margin-bottom: 0px;
+}
+
+#leads-list {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+    border: 1px solid #CECDCA;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    z-index: 200;
+    width: 97%;
+    margin-left: 8px;
+}
+
+#wp-leads-stat-boxes {
+    margin-bottom: 10px;
+}
+
+#lead-ul li {
+    border-bottom: 1px solid #EBEBEA;
+    padding: 12px 20px;
+    position: relative;
+    font-size: 13px;
+    margin: 0;
+}
+
+.ir-widget-gravatar {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-right: 5px;
+}
